@@ -1,0 +1,5 @@
+Both are taken from google fonts, DM sans is a font designed by Jonny Pinhorn from Colophon type foundry, and IBM Plex Mono is designed by Mike Abnik from Bold Monday type foundry. 
+
+Link to IBM Plex Mono Family: https://fonts.google.com/specimen/IBM+Plex+Mono?query=ibm#standard-styles
+
+Link to DM Sans Family: https://fonts.google.com/specimen/DM+Sans?query=Colophon+Foundry#standard-styles

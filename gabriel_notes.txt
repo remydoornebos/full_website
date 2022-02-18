@@ -1,0 +1,12 @@
+switch to firebase hosting?
+
+and maybe don't use onload function for the dark
+
+use github
+
+convert some things to em;
+font - rem
+for larger things use em, and for smaller things, use just pixels
+
+condsider using grid instead of flex for layout items
+

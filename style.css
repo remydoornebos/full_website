@@ -1,0 +1,458 @@
+/* DM SANS FONT FAMILY DECLARATION*/
+@font-face {
+  font-family: dmSansBold;
+  src: url(fonts/dm_sans/DMSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: dmSansBoldItalic;
+  src: url(fonts/dm_sans/DMSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: dmSansItalic;
+  src: url(fonts/dm_sans/DMSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: dmSansMedium;
+  src: url(fonts/dm_sans/DMSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: dmSansMediumItalic;
+  src: url(fonts/dm_sans/DMSans-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: dmSansRegular;
+  src: url(fonts/dm_sans/DMSans-Regular.ttf);
+}
+
+/* IBM PLEX MONO FONT FAMILY DECLARATION */
+@font-face {
+  font-family: ibmPlexMonoBold;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-Bold.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoBoldItalic;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoExtraLight;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoExtraLightItalic;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-ExtraLightItalic.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoItalic;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-Italic.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoLight;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-Light.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoLightItalic;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoMedium;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-Medium.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoMediumItalic;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoRegular;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoSemiBold;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoSemiBoldItalic;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoThin;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-Thin.ttf);
+}
+
+@font-face {
+  font-family: ibmPlexMonoThinItalic;
+  src: url(fonts/ibm_plex_mono/IBMPlexMono-ThinItalic.ttf);
+}
+
+/* TODO: Delete extraneous fonts to decrease load time as I assume 
+this would be kind of taxing on the system*/
+
+body {
+  background: url(image_assets/grid_pattern.svg);
+  background-position-x: center;
+  background-repeat: repeat-y;
+  background-size: 2570px;
+  margin: 10px;
+}
+
+h1 {
+  font-family: ibmPlexMonoBold;
+  font-size: 355%;
+  text-align: center;
+}
+
+h2 {
+  font-family: ibmPlexMonoRegular;
+  font-size: 155%;
+  text-align: center;
+}
+
+p {
+  font-family: dmSansRegular;
+  font-size: 120%;
+  text-align: left;
+}
+
+/* Use for captions on photos and such */
+h3 {
+  font-family: ibmPlexMonoMedium;
+  font-size: 66%;
+  text-align: left;
+}
+
+/* use only for the right hand menu */
+h4 {
+  margin: 0%;
+  font-family: ibmPlexMonoExtraLight;
+  font-size: 100%;
+  text-align: left;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.inlineImages {
+  width: 100%;
+  border: 1px solid #1E1E1E;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.row1 {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  width: 100%;
+}
+
+
+/* fix the problem of the 
+signature here */
+.signature {
+  display: inline-flex;
+  width: 200px;
+  padding-right: 4.7%;
+  padding-left: 4.7%;
+  text-align: right;
+  flex-wrap: nowrap;
+}
+
+.altMenu {
+  display: none;
+}
+
+.pageTitle {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 600px;
+}
+
+.right {
+  display: inline-flex;
+  width: 200px;
+  padding-right: 4.7%;
+  padding-left: 4.7%;
+  text-align: center;
+  vertical-align: center;
+  flex-wrap: nowrap;
+}
+
+.menuText {
+  width: fit-content;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.altMenuItem {
+  display: none;
+}
+
+
+
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 5%;
+  width: 100%;
+}
+
+.leftMotif {
+  text-align: right;
+  display: inline-flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #cccccc;
+  padding-left: 4.7%;
+  padding-right: 4.7%;
+}
+
+.content {
+  display: inline-flex;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  padding: 4%;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  width: 600px;
+  text-align: center;
+  background-color: white;
+  align-self: flex-start;
+}
+
+.rightStatic {
+  position: sticky;
+  padding-left: 4.7%;
+  padding-right: 4.7%;
+  top: 5%;
+  height: 300px;
+  width: 200px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.staticLinks {
+  display: inline-flex;
+  justify-content: space-evenly;
+  color: black;
+  text-decoration: none;
+  font-family: ibmPlexMonoRegular;
+  font-size: 100%;
+  text-align: right;
+  cursor: default;
+  width: 100px;
+  transform-origin: right;
+  transform: rotate(90deg);
+  position: relative;
+  top: 20%;
+}
+
+
+
+
+
+.spacer {
+  width: 200px;
+  padding-left: 4.7%;
+  padding-right: 4.7%;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.footer {
+
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact {
+  width: 600px;
+  padding: 4%;
+  text-align: left;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+@media all and (max-width: 1200px) {
+  .row1 {
+    flex-direction: column;
+  }
+
+  .signature {
+    width: 100%;
+    align-content: left;
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .altMenu {
+    display: inline-flex;
+    align-self: center;
+    flex-direction: column;
+    height: 100%;
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .altMenuItem {
+    display: inline;
+    padding-left: 35px;
+    text-align: center;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .pageTitle {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0%;
+    order: 2;
+  }
+
+  .rightStatic {
+    display: none;
+  }
+
+  .leftMotif {
+    display: none;
+  }
+
+  .content {
+    width: 80%;
+    margin-top: 0%;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .contact {
+    width: 80%;
+  }
+}
+
+.darkModeToggle {
+
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  height: 25px;
+  text-align: right;
+}
+
+/** Switch
+ -------------------------------------*/
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+}
+
+/**
+ * 1. Adjust this to size
+ */
+
+.switch {
+  display: inline-block;
+  font-size: 25px;
+  /* 1 */
+  height: 1em;
+  width: 1.8em;
+  background: #cccccc;
+  border-radius: 1em;
+}
+
+.switch div {
+  height: .8em;
+  width: .8em;
+  position: relative;
+  top: .1em;
+  left: .1em;
+  border-radius: 1em;
+  background: #434343;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/** IF DARK MODE **/
+.switch input:checked+div {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+/** Dark mode Styling **/
+
+.bodyDark {
+  background: url(image_assets/dark_mode/grid_pattern_dark.svg);
+  background-position-x: center;
+  background-repeat: repeat-y;
+  background-size: 2570px;
+  color: #c6c6c6;
+}
+
+.contentDark {
+  background-color: #1E1E1E;
+}
+
+/** change text color **/
+.h1Dark {
+  color: #c6c6c6;
+}
+
+.h2Dark {
+  color: #c6c6c6;
+}
+
+.pDark {
+  color: #c6c6c6;
+}
+
+.h3Dark {
+  color: #c6c6c6;
+}
+
+.h4Dark {
+  color: #c6c6c6;
+}
+
+.staticLinksDark {
+  color: #c6c6c6;
+}

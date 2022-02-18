@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <link rel="icon" href="image_assets/signature_favicon.svg">
+    <title>Home</title>
+</head>
+
+
+<body onload="populateMotif()">
+    <div class="darkModeToggle">
+        <label class="switch"><input type="checkbox" onclick="toggleDarkMode()" />
+            <div></div>
+        </label>
+    </div>
+    <div class="row1">
+        <div class="signature">
+            <a href="home.html" class="signatureIcon">
+                <img id="signature" src="image_assets/signature.svg" alt="signature" onmouseover="mouseOverSig()"
+                    onmouseout="mouseOutSig()" style="height: 120px; width: 120px;"></a>
+            <div class="altMenu" id="altMenu"> <img src="image_assets/alt_menu.svg" alt="alt menu icon" id="altMenuIcon"
+                    class="altMenuIcon" style="height: 120px; width: 120px;" onmouseover="mouseOverAltMenu()"
+                    onmouseout="mouseOutAltMenu()" onclick="openMenu()">
+                <div class="altMenuItem"><a href="publication.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="publication1" onmouseover="mouseOverMenu('publication1')"
+                            onmouseout="mouseOutMenu('publication1')">Publication</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="capstone.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="capstone1" onmouseover="mouseOverMenu('capstone1')"
+                            onmouseout="mouseOutMenu('capstone1')">Capstone</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="3D.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="3D1" onmouseover="mouseOverMenu('3D1')"
+                            onmouseout="mouseOutMenu('3D1')">3D</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="futures.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="futures1" onmouseover="mouseOverMenu('futures1')"
+                            onmouseout="mouseOutMenu('futures1')">Futures</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="packaging.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="packaging1" onmouseover="mouseOverMenu('packaging1')"
+                            onmouseout="mouseOutMenu('packaging1')">Packaging</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="print.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="print1" onmouseover="mouseOverMenu('print1')"
+                            onmouseout="mouseOutMenu('print1')">Print</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="research.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="research1" onmouseover="mouseOverMenu('research1')"
+                            onmouseout="mouseOutMenu('research1')">Research</h4>
+                    </a></div>
+            </div>
+        </div>
+        <div class="pageTitle">
+            <h1>Home</h1>
+            <h2 style="position: relative; top: -20px;">Remy Doornebos</h2>
+        </div>
+        <div class="right" style="height: 200px;">
+            <div class="rightMenu" style="position: absolute top 902px;">
+                <img id="square" src="image_assets/square_right.svg" style="height: 170px;">
+                <div class="menuText" style="position: relative; top: -155px; left: 15%;">
+                    <div class="menuItem"><a href="publication.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="publication" onmouseover="mouseOverMenu('publication')"
+                                onmouseout="mouseOutMenu('publication')">Publication</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="capstone.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="capstone" onmouseover="mouseOverMenu('capstone')"
+                                onmouseout="mouseOutMenu('capstone')">Capstone</h4>
+                        </a></div>
+                    
+                    <div class="menuItem"><a href="futures.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="futures" onmouseover="mouseOverMenu('futures')"
+                                onmouseout="mouseOutMenu('futures')">Futures</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="packaging.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="packaging" onmouseover="mouseOverMenu('packaging')"
+                                onmouseout="mouseOutMenu('packaging')">Packaging</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="print.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="print" onmouseover="mouseOverMenu('print')"
+                                onmouseout="mouseOutMenu('print')">Print</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="research.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="research" onmouseover="mouseOverMenu('research')"
+                                onmouseout="mouseOutMenu('research')">Research</h4>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="leftMotif" id="leftMotif">
+            <!--- Empty class to be populated onload by populateMotif() function. --->
+        </div>
+        <div id="content" class="content">
+            <p>Remy is a recent graduate of DePaul University’s BFA program in graphic design. His interests in design
+                are mostly in branding, typography, and website design. He spends his free time listening to copious
+                amounts of various music, woodworking, and identifying fonts everywhere all the time.
+                <br><br> This site serves as a portfolio of work as well as a showcase of my programming abilities, as I
+                wrote
+                this in pure css, html, and javascript. Wordpress was not cutting it for me, and I wanted an extra
+                challenge.
+
+
+            </p>
+        </div>
+        <div class="rightStatic">
+            <a class="staticLinks" id="insta" href="https://www.instagram.com/remco.creative/"
+                onmouseover="mouseOverMenu('insta')" onmouseout="mouseOutMenu('insta')">insta</a>
+            <a class="staticLinks" id="email" href="mailto:remy.door@gmail.com" onmouseover="mouseOverMenu('email')"
+                onmouseout="mouseOutMenu('email')">email</a>
+            <a class="staticLinks" id="linkedin" href="https://www.linkedin.com/in/remy-doornebos-8b21521b0/"
+                onmouseover="mouseOverMenu('linkedin')" onmouseout="mouseOutMenu('linkedin')">linkedin</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="spacer"></div>
+        <div class="contact">
+            <h3>Contact <br> <br> email remy.door@gmail.com &emsp;&emsp; phone 3126396749</h3>
+        </div>
+        <div class="spacer"></div>
+    </div>
+</body>
+
+</html>

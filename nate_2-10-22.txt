@@ -1,0 +1,19 @@
+just frame something as a project, not a school project
+
+capstone: show font in specimen and put book in mockup (don't call it capstone)
+
+reach out to Laura about whether to use / how to use mockups in a portfolio
+
+take off the quarter from the site too to make it seem less like a school thing
+
+make the grid less contrasted from itself ie change the lines to be a lighter gray (possibly thinner) or maybe do a dotted grid? do a more vague reference? do crosshair w dots?
+
+consider something other than square for the navigation in the site (because it needs to be easily editable)
+
+put captions under the photos to explain (but also to slow down the user)
+
+Generally, frame each project individually because then it's more about the project, not what the project was for.
+
+print portfolio...doubts it's worth it? could be good to use as a concept that shows how you make physical things. not really as something to pore over in the interview, because they have already looked at your work online. 
+
+res. proj. two: The second research project I was involved in was to help improve the user interface of a website that displays the ways that catalogues the energy infrastructure of the US--how we produce store and distribute energy. The accompanying research paper is written by associate professor Elizabeth Moyer at University of Chicago. Some of the issues tackled included providing more contrast to the page, redesigning interactive elements, and determining a visual hierarchy of information.

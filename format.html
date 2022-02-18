@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+</head>
+<title>packaging design</title>
+
+<body onload="populateMotif()" onresize="populateMotif()">
+    <div class="darkModeToggle">
+        <label class="switch"><input type="checkbox" onclick="toggleDarkMode()" />
+            <div></div>
+        </label>
+    </div>
+    <div class="row1">
+        <div class="signature">
+            <img id="signature" src="image_assets/signature.svg" alt="signature" onmouseover="mouseOverSig()"
+                onmouseout="mouseOutSig()" style="height: 120px; width: 120px;">
+            <div class="altMenu"> <img src="image_assets/alt_menu.svg" alt="alt menu"> </div>
+        </div>
+        <div class="pageTitle">
+            <h1>Packaging Design</h1>
+            <h2 style="position: relative; top: -20px;">2021 Fall</h2>
+        </div>
+        <div class="right" style="height: 200px;">
+            <div class="rightMenu" style="position: absolute top 902px;">
+                <img id="square" src="image_assets/square_right.svg" style="height: 170px;">
+                <div class="menuText" style="position: relative; top: -160px; left: 15%;">
+                    <div class="menuItem"><a href="publication.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="publication" onmouseover="mouseOverMenu('publication')"
+                                onmouseout="mouseOutMenu('publication')">Publication</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="capstone.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="capstone" onmouseover="mouseOverMenu('capstone')"
+                                onmouseout="mouseOutMenu('capstone')">Capstone</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="3D.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="3D" onmouseover="mouseOverMenu('3D')"
+                                onmouseout="mouseOutMenu('3D')">3D</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="futures.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="futures" onmouseover="mouseOverMenu('futures')"
+                                onmouseout="mouseOutMenu('futures')">Futures</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="packaging.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="packaging" onmouseover="mouseOverMenu('packaging')"
+                                onmouseout="mouseOutMenu('packaging')">Packaging</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="print.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="print" onmouseover="mouseOverMenu('print')"
+                                onmouseout="mouseOutMenu('print')">Print</h4>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="leftMotif" id="leftMotif" style="padding-left: 4.7%; padding-right: 4.7%;">
+            <! --- Empty class to be populated onload by populateMotif() function. --->
+        </div>
+        <div id="content" class="content">
+            <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a
+                horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his
+                brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to
+                cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size
+                ndow at the dull weather. Drops One morning, when Gregor Samsa woke from troubled
+                dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back,
+                and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches
+                into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.
+                His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he
+                looked. "What's happened to me?" he thought. It wasn't a dream. His room, a proper human room although a
+                little too small, lay peacefully between its four familiar walls. A collection of textile samples lay
+                spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he
+                had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady
+                fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole
+                of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.
+                Drops One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed
+                into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see
+                his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able
+                to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the
+                size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought. It
+                wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its
+                four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a
+                travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated
+                magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who
+                sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor
+                then turned to look out the window at the dull weather. Drops</p>
+            <img src="image_assets/svg_image_test.svg" alt="test_image" style="width: 100%;">
+            <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a
+                horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his
+                brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to
+                cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size
+                of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought. It wasn't
+                a dream. His room, a proper human room although a little too small, lay peacefully between its four
+                familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling
+                salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and
+                housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright,
+                raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned
+                to look out the window at the dull weather. Drops One morning, when Gregor Samsa woke from troubled
+                dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back,
+                and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches
+                into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.
+                His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he
+                looked. "What's happened to me?" he thought. It wasn't a dream. His room, a proper human room although a
+                little too small, lay peacefully between its four familiar walls.
+                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a
+                horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his
+                brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to
+                cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size
+                ndow at the dull weather. Drops One morning, when Gregor Samsa woke from troubled
+                dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back,
+                and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches
+                into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.
+                His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he
+                looked. "What's happened to me?" he thought. It wasn't a dream. His room, a proper human room although a
+                little too small, lay peacefully between its four familiar walls. A collection of textile samples lay
+                spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he
+                had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady
+                fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole
+                of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.
+                Drops One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed
+                into a horrible vermin. He lay on h</p>
+        </div>
+        <div class="rightStatic">
+            <a class="staticLinks" id="insta" href="https://www.instagram.com/remco.creative/" title="insta"
+                onmouseover="mouseOverMenu('insta')" onmouseout="mouseOutMenu('insta')">insta</a>
+            <a class="staticLinks" id="email" href="mailto:remy.door@gmail.com" title="email"
+                onmouseover="mouseOverMenu('email')" onmouseout="mouseOutMenu('email')">email</a>
+            <a class="staticLinks" id="linkedin" href="https://www.linkedin.com/in/remy-doornebos-8b21521b0/" title="linkedin"
+                onmouseover="mouseOverMenu('linkedin')" onmouseout="mouseOutMenu('linkedin')">linkedin</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="spacer"></div>
+        <div class="contact">
+            <h3>Contact <br> <br> email remy.door@gmail.com &emsp;&emsp; phone 3126396749</h3>
+        </div>
+        <div class="spacer"></div>
+    </div>
+</body>
+
+</html>

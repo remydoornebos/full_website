@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <link rel="icon" href="image_assets/signature_favicon.svg">
+    <title>Capstone</title>
+</head>
+
+
+<body onload="populateMotif()">
+    <div class="darkModeToggle">
+        <label class="switch"><input type="checkbox" onclick="toggleDarkMode()" />
+            <div></div>
+        </label>
+    </div>
+    <div class="row1">
+        <div class="signature">
+            <a href="home.html" class="signatureIcon">
+                <img id="signature" src="image_assets/signature.svg" alt="signature" onmouseover="mouseOverSig()"
+                    onmouseout="mouseOutSig()" style="height: 120px; width: 120px;"></a>
+            <div class="altMenu" id="altMenu"> <img src="image_assets/alt_menu.svg" alt="alt menu icon" id="altMenuIcon"
+                    class="altMenuIcon" style="height: 120px; width: 120px;" onmouseover="mouseOverAltMenu()"
+                    onmouseout="mouseOutAltMenu()" onclick="openMenu()">
+                <div class="altMenuItem"><a href="publication.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="publication1" onmouseover="mouseOverMenu('publication1')"
+                            onmouseout="mouseOutMenu('publication1')">Publication</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="capstone.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="capstone1" onmouseover="mouseOverMenu('capstone1')"
+                            onmouseout="mouseOutMenu('capstone1')">Capstone</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="3D.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="3D1" onmouseover="mouseOverMenu('3D1')"
+                            onmouseout="mouseOutMenu('3D1')">3D</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="futures.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="futures1" onmouseover="mouseOverMenu('futures1')"
+                            onmouseout="mouseOutMenu('futures1')">Futures</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="packaging.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="packaging1" onmouseover="mouseOverMenu('packaging1')"
+                            onmouseout="mouseOutMenu('packaging1')">Packaging</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="print.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="print1" onmouseover="mouseOverMenu('print1')"
+                            onmouseout="mouseOutMenu('print1')">Print</h4>
+                    </a></div>
+                <div class="altMenuItem"><a href="research.html" style="text-decoration: none;">
+                        <h4 style="color: black;" id="research1" onmouseover="mouseOverMenu('research1')"
+                            onmouseout="mouseOutMenu('research1')">Research</h4>
+                    </a></div>
+            </div>
+        </div>
+        <div class="pageTitle">
+            <h1>Capstone</h1>
+            <h2 style="position: relative; top: -20px;">2021 Winter / Spring</h2>
+        </div>
+        <div class="right" style="height: 200px;">
+            <div class="rightMenu" style="position: absolute top 902px;">
+                <img id="square" src="image_assets/square_right.svg" style="height: 170px;">
+                <div class="menuText" style="position: relative; top: -155px; left: 15%;">
+                    <div class="menuItem"><a href="publication.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="publication" onmouseover="mouseOverMenu('publication')"
+                                onmouseout="mouseOutMenu('publication')">Publication</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="capstone.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="capstone" onmouseover="mouseOverMenu('capstone')"
+                                onmouseout="mouseOutMenu('capstone')">Capstone</h4>
+                        </a></div>
+                    
+                    <div class="menuItem"><a href="futures.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="futures" onmouseover="mouseOverMenu('futures')"
+                                onmouseout="mouseOutMenu('futures')">Futures</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="packaging.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="packaging" onmouseover="mouseOverMenu('packaging')"
+                                onmouseout="mouseOutMenu('packaging')">Packaging</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="print.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="print" onmouseover="mouseOverMenu('print')"
+                                onmouseout="mouseOutMenu('print')">Print</h4>
+                        </a></div>
+                    <div class="menuItem"><a href="research.html" style="text-decoration: none;">
+                            <h4 style="color: white;" id="research" onmouseover="mouseOverMenu('research')"
+                                onmouseout="mouseOutMenu('research')">Research</h4>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="leftMotif" id="leftMotif">
+            <!--- Empty class to be populated onload by populateMotif() function. --->
+        </div>
+        <div id="content" class="content">
+            <p>I always knew that I wanted to do a typeface for my final project but I had no idea it would turn into
+                something like this. I wanted to combine some of the design philosophy I learned at DePaul in practice
+                with letters. One of the more prominent things that I learned from design school is just how important
+                negative space is in any design. So naturally I decided to make a typeface from the negative space
+                between letters in an existing font.
+
+                <img class="inlineImages" src="projects/capstone/spread_alph.png" alt="" style="padding: 2%;">
+                <img class="inlineImages" src="projects/capstone/final_document.jpg" alt="">
+                <img class="inlineImages" src="projects/capstone/final_document2.jpg" alt="">
+                <img class="inlineImages" src="projects/capstone/final_document3.jpg" alt="">
+                <img class="inlineImages" src="projects/capstone/final_document4.jpg" alt="">
+                <img class="inlineImages" src="projects/capstone/final_document5.jpg" alt="">
+                <img class="inlineImages" src="projects/capstone/final_document6.jpg" alt="">
+                <img class="inlineImages" src="projects/capstone/final_document7.jpg" alt="">
+                <img class="inlineImages" src="projects/capstone/final_document8.jpg" alt="">
+            </p>
+        </div>
+        <div class="rightStatic">
+            <a class="staticLinks" id="insta" href="https://www.instagram.com/remco.creative/"
+                onmouseover="mouseOverMenu('insta')" onmouseout="mouseOutMenu('insta')">insta</a>
+            <a class="staticLinks" id="email" href="mailto:remy.door@gmail.com" onmouseover="mouseOverMenu('email')"
+                onmouseout="mouseOutMenu('email')">email</a>
+            <a class="staticLinks" id="linkedin" href="https://www.linkedin.com/in/remy-doornebos-8b21521b0/"
+                onmouseover="mouseOverMenu('linkedin')" onmouseout="mouseOutMenu('linkedin')">linkedin</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="spacer"></div>
+        <div class="contact">
+            <h3>Contact <br> <br> email remy.door@gmail.com &emsp;&emsp; phone 3126396749</h3>
+        </div>
+        <div class="spacer"></div>
+    </div>
+</body>
+
+</html>
