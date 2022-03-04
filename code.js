@@ -1,3 +1,4 @@
+var altMenuEnabled = false;
 var darkModeEnabled = false;
 //TODO: implement dark mode local storage var to load pages correctly with the theme
 localStorage.setItem("darkModeEnabled", "false");
@@ -11,19 +12,24 @@ function mouseOutMenu(x) {
 }
 
 function toggleAltMenu() {
-  var altMenuObj = document.getElementById("altMenu");
-  var altMenuIcon = document.getElementById("altMenuIcon");
-  console.log(altMenuObj);
-  altMenuObj.style.width = "100%";
-  //altMenuObj.style.height = document.getElementsByTagName("body");
+  if(altMenuEnabled){
 
-
-  if (darkModeEnabled) {
-    altMenuObj.style.backgroundColor = "#434343";
-    altMenuIcon.src = "image_assets/dark_mode/alt_menu_x_dark.svg";
   } else {
-    altMenuObj.style.backgroundColor = "white";
-    altMenuIcon.src = "image_assets/alt_menu_x.svg";
+    var altMenuObj = document.getElementById("altMenu");
+    var altMenuIcon = document.getElementById("altMenuIcon");
+    var altMenuItem = document.getElementsByClassName("altMenuItem");
+    console.log(altMenuObj);
+    altMenuObj.style.width = "100%";
+    //altMenuObj.style.height = document.getElementsByTagName("body");
+  
+  
+    if (darkModeEnabled) {
+      altMenuObj.style.backgroundColor = "#434343";
+      altMenuIcon.src = "image_assets/dark_mode/alt_menu_x_dark.svg";
+    } else {
+      altMenuObj.style.backgroundColor = "white";
+      altMenuIcon.src = "image_assets/alt_menu_x.svg";
+    }
   }
 }
 
