@@ -10,7 +10,7 @@ function mouseOutMenu(x) {
   document.getElementById(x).style.fontWeight = 100;
 }
 
-function openMenu() {
+function toggleAltMenu() {
   var altMenuObj = document.getElementById("altMenu");
   var altMenuIcon = document.getElementById("altMenuIcon");
   console.log(altMenuObj);
