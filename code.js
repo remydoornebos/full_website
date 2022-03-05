@@ -11,6 +11,9 @@ function mouseOutMenu(x) {
   document.getElementById(x).style.fontWeight = 100;
 }
 
+
+//deprecated because of temporary ignoring of dark mode 
+//-- onclick should be added on alt menu button
 function toggleAltMenu() {
   if(altMenuEnabled){
 
