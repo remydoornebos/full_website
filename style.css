@@ -320,19 +320,21 @@ signature here */
   }
 
   .altMenu {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     align-self: center;
     flex-direction: column;
-    height: 100%;
     z-index: 1;
-    transition: 0.5s;
   }
 
   .altMenuItem {
-    display: inline;
-    padding-left: 35px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    text-align: left;
   }
 
   .right {
