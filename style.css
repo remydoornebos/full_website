@@ -166,13 +166,11 @@ h4 {
 /* fix the problem of the 
 signature here */
 .signature {
-  display: inline-flex;
   width: 200px;
   padding-right: 4.7%;
   padding-left: 4.7%;
   text-align: right;
   flex-wrap: nowrap;
-  order: 1;
 }
 
 .altMenu {
@@ -180,24 +178,19 @@ signature here */
 }
 
 .pageTitle {
-  display: inline-flex;
-  flex-direction: column;
   text-align: center;
   padding-left: 4%;
   padding-right: 4%;
   width: 600px;
-  order:2;
 }
 
 .right {
-  display: inline-flex;
   width: 200px;
   padding-right: 4.7%;
   padding-left: 4.7%;
   text-align: center;
   vertical-align: center;
   flex-wrap: nowrap;
-  order: 3;
 }
 
 .menuText {
