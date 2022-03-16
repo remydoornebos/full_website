@@ -40,16 +40,20 @@ function closeMenu() {
   document.getElementById("altMenu").style.width = "0%";
 }
 
-function mouseOverX {
+function mouseOverX() {
   if (darkModeEnabled) {
-    document.getElementById("altMenuX").src = "";
+    document.getElementById("altMenuX").src = "image_assets/dark_mode/alt_menu_x_hover_dark.svg";
   } else {
-    document.getElementById("altMenuX").src = "image_assets/alt_menu_hover.svg";
+    document.getElementById("altMenuX").src = "image_assets/alt_menu_x_hover.svg";
   }
 }
 
-function mouseOutX {
-  
+function mouseOutX() {
+  if (darkModeEnabled) {
+    document.getElementById("altMenuX").src = "image_assets/dark_mode/alt_menu_x_dark.svg";
+  } else {
+    document.getElementById("altMenuX").src = "image_assets/alt_menu_x.svg";
+  }
 }
 
 function mouseOverAltMenu() {
