@@ -40,6 +40,18 @@ function closeMenu() {
   document.getElementById("altMenu").style.width = "0%";
 }
 
+function mouseOverX {
+  if (darkModeEnabled) {
+    document.getElementById("altMenuX").src = "";
+  } else {
+    document.getElementById("altMenuX").src = "image_assets/alt_menu_hover.svg";
+  }
+}
+
+function mouseOutX {
+  
+}
+
 function mouseOverAltMenu() {
   if (darkModeEnabled) {
     document.getElementById("altMenuIcon").src = "image_assets/dark_mode/alt_menu_hover_dark.svg";

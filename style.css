@@ -172,6 +172,7 @@ signature here */
   padding-left: 4.7%;
   text-align: right;
   flex-wrap: nowrap;
+  order: 1;
 }
 
 .altMenu {
@@ -185,6 +186,7 @@ signature here */
   padding-left: 4%;
   padding-right: 4%;
   width: 600px;
+  order:2;
 }
 
 .right {
@@ -195,6 +197,7 @@ signature here */
   text-align: center;
   vertical-align: center;
   flex-wrap: nowrap;
+  order: 3;
 }
 
 .menuText {
@@ -210,9 +213,6 @@ signature here */
 .altMenuItem {
   display: none;
 }
-
-
-
 
 .row2 {
   display: flex;
@@ -309,10 +309,14 @@ signature here */
     flex-direction: column;
   }
 
+  h1{
+    font-size: 305%;
+  }
+
   .signature {
     width: 100%;
     align-content: left;
-    order: 1;
+
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -329,12 +333,21 @@ signature here */
     z-index: 1;
   }
 
+  .altMenuContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 10%;
+  }
+
   .altMenuItem {
     display: flex;
-    justify-content: center;
-    align-self: center;
-    justify-self: center;
-    text-align: left;
+    align-self: right;
+    align-content: right;
+    align-items: right;
+    justify-self: right;
+    text-align: right;
   }
 
   .right {
@@ -345,7 +358,7 @@ signature here */
     width: 100%;
     text-align: center;
     margin-bottom: 0%;
-    order: 2;
+
   }
 
   .rightStatic {
