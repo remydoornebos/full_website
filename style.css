@@ -329,7 +329,7 @@ signature here */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: space-between;
+    align-content: left;
     padding: 10%;
   }
 
@@ -340,6 +340,7 @@ signature here */
     align-items: right;
     justify-self: right;
     text-align: right;
+    padding-left: 35px;
   }
 
   .right {

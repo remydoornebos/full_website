@@ -4,13 +4,16 @@ var darkModeEnabled = false;
 localStorage.setItem("darkModeEnabled", "false");
 
 function mouseOverMenu(x) {
-  document.getElementById(x).style.fontWeight = 900;
+  if (document.getElementById(x) != null){
+    document.getElementById(x).style.fontWeight = 900;
+  }
 }
 
 function mouseOutMenu(x) {
-  document.getElementById(x).style.fontWeight = 100;
+  if (document.getElementById(x) != null){
+    document.getElementById(x).style.fontWeight = 100;
+  }
 }
-
 
 //deprecated because of temporary ignoring of dark mode 
 //-- onclick should be added on alt menu button
