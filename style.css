@@ -103,6 +103,11 @@
 /* TODO: Delete extraneous fonts to decrease load time as I assume 
 this would be kind of taxing on the system*/
 
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   background: url(image_assets/grid_pattern.svg);
   background-position-x: center;
@@ -110,6 +115,7 @@ body {
   background-size: 2570px;
   margin: 10px;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 h1 {
