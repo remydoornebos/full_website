@@ -316,6 +316,7 @@ signature here */
 
   h1{
     font-size: 305%;
+    letter-spacing: -1px;
   }
 
   .signature {
