@@ -109,6 +109,7 @@ body {
   background-repeat: repeat-y;
   background-size: 2570px;
   margin: 10px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -204,7 +205,13 @@ signature here */
 }
 
 .altMenuItem {
-  display: none;
+  display: flex;
+  align-self: left;
+  align-content: left;
+  align-items: left;
+  justify-self: left;
+  text-align: left;
+  padding-left: 35px;
 }
 
 .row2 {
@@ -322,7 +329,6 @@ signature here */
     align-content: center;
     align-self: center;
     flex-direction: column;
-    z-index: 1;
   }
 
   .altMenuContainer {
@@ -331,16 +337,6 @@ signature here */
     justify-content: space-between;
     align-content: left;
     padding: 10%;
-  }
-
-  .altMenuItem {
-    display: flex;
-    align-self: right;
-    align-content: right;
-    align-items: right;
-    justify-self: right;
-    text-align: right;
-    padding-left: 35px;
   }
 
   .right {
